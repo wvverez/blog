@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on wvverez</title>
-    <link>http://localhost:1313/blog/posts/</link>
+    <link>https://wvverez.github.io/blog/posts/</link>
     <description>Recent content in Posts on wvverez</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wvverez.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/blog/posts/hola-mundo/</link>
+      <link>https://wvverez.github.io/blog/posts/hola-mundo/</link>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/hola-mundo/</guid>
+      <guid>https://wvverez.github.io/blog/posts/hola-mundo/</guid>
       <description>&lt;p&gt;Bienvenido a mi blog.&lt;/p&gt;</description>
     </item>
   </channel>

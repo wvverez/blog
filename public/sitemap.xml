@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/posts/hola-mundo/</loc>
+    <loc>https://wvverez.github.io/blog/posts/hola-mundo/</loc>
     <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
+    <loc>https://wvverez.github.io/blog/posts/</loc>
     <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://wvverez.github.io/blog/</loc>
     <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>https://wvverez.github.io/blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>https://wvverez.github.io/blog/tags/</loc>
   </url>
 </urlset>
