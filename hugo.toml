@@ -1,0 +1,11 @@
+baseURL = "https://wvverez.github.io/blog/"
+languageCode = "es-es"
+title = "wvverez"
+theme = "PaperMod"
+
+[params]
+env = "production"
+defaultTheme = "dark"
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
