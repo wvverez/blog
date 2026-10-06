@@ -13,7 +13,7 @@ ShowPostNavLinks = true
 [params.profileMode]
 enabled = true
 title = "wvverez"
-subtitle = "Cybersecurity · Programming · CTFs"
+subtitle = "Cybersecurity · Programming · Active Directory"
 imageUrl = "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/avatar.png"
 imageTitle = "wvverez"
 imageWidth = 150
