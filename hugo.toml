@@ -9,3 +9,11 @@ defaultTheme = "dark"
 ShowReadingTime = true
 ShowCodeCopyButtons = true
 ShowPostNavLinks = true
+
+[params.profileMode]
+enabled = true
+title = "wvverez"
+subtitle = "Cybersecurity · Programming · Malware"
+imageUrl = "/blog/images/avatar.png"
+imageWidth = 150
+imageHeight = 150
