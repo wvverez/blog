@@ -13,8 +13,12 @@ ShowPostNavLinks = true
 [params.profileMode]
 enabled = true
 title = "wvverez"
-subtitle = "Pentesting · Programming · Active Directory"
+subtitle = "Cybersecurity · Programming · CTFs"
 imageUrl = "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/avatar.png"
 imageTitle = "wvverez"
 imageWidth = 150
 imageHeight = 150
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
