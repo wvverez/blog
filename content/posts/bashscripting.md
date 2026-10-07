@@ -2,13 +2,20 @@
 title: "Bash scripting básico"
 date: 2026-10-06
 draft: false
+
 categories:
   - Bash Scripting
+
 tags:
   - Bash Scripting
   - Funciones
   - Linux
   - Variables
+
+cover:
+  image: "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/bash.png"
+  alt: "Bash scripting básico"
+  caption: "Bash scripting básico"
 ---
 
 En este primer post de este nuevo blog voy a empezar hablando sobre la importancia de Bash para automatizar tareas y en ciberseguridad. 
