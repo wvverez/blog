@@ -29,4 +29,6 @@ Mucha gente tiene dudas con esto por que en bash normalmente una `#` hace refere
 
 Lo que pasa es que para lenguajes como `Bash` o `Python` todo lo que siga a `#` es comentado. Pero para el `kernel` de Linux los primeros bytes que tiene un archivo son su identidad.
 
-Cuando ejecutas un archivo
+Cuando ejecutas un archivo, el kernel busca ese `magic number`. En el caso de el shebang busca los bytes hexadecimales 0x23 (#) y 0x21 (!). Si lo encuentra, el kernel ya sabe que es un archivo binario como por ejemplo un .exe si no que va a ser un script que requiera un interprete.
+
+Todo esto es una evidencia de el propio código fuente de `Linux`. 
