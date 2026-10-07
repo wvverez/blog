@@ -1,5 +1,5 @@
 ---
-title: "Bash scripting desde cero"
+title: "Bash scripting básico"
 date: 2026-10-06
 draft: false
 categories:
