@@ -6,7 +6,7 @@ description: "Introducción a SQL Injection, cómo funciona y cómo prevenirla."
 tags: ["SQL Injection", "SQL", "Web Security", "OWASP"]
 categories: ["Cybersecurity", "Web Security"]
 cover:
-    image: "https://github.com/wvverez/blog/blob/main/themes/PaperMod/images/sql.png"
+    image: "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/sql.png"
     alt: "SQL Injection"
     caption: "Introducción a SQL Injection"
     relative: false
