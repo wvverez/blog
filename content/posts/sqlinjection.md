@@ -1,6 +1,6 @@
 ---
 title: "SQL Injection"
-date: 2026-10-08
+date: 2026-10-06
 author: "wvverez"
 tags: ["SQL Injection", "SQL", "Web Security", "OWASP"]
 categories: ["Cybersecurity", "Web Security"]
