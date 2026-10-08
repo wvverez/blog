@@ -12,4 +12,10 @@ cover:
     relative: false
 ---
 
-En este primer post de este proyecto voy a 
+He creado este proyecto para cada mes postear información sobre `vulnerabilidades`, me presento mi nick es @wvverez y soy un chico joven y entusiasta de el pentesting y el desarrollo de malware, también la programación y en general me causa mucha curiosidad la tecnología.
+
+En mi tiempo libre me gusta investigar de forma autódidacta. Dicho esto vamos con el primer post en el que voy a explicar las vulnerabilidades SQL Injection.
+
+Las inyecciones `SQL` ocurren cuando un atacante es capaz de mandar querys (consultas) maliciosas desde algún campo de la página web. Es decir si hay ciertas entradas que no sanitizan correctamente la información de el usuario. Esa consulta **sql** se ejecuta en la base de datos, lo que permite consultar tablas, columnas bases de datos y información confidencial. Hay diferentes tipos de inyecciones `SQL`.
+
+- Inyecciones SQL basadas en errores: 
