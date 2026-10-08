@@ -1,6 +1,6 @@
 baseURL = "https://wvverez.github.io/blog/"
 languageCode = "es-es"
-title = "wvverez Blog"
+title = "Vulnerabilidad del mes"
 theme = "PaperMod"
 
 [params]
@@ -12,7 +12,7 @@ ShowPostNavLinks = true
 
 [params.profileMode]
 enabled = true
-title = "wvverez"
+title = "Vulnerabilidad del mes"
 subtitle = "Cybersecurity · Programming · Active Directory"
 imageUrl = "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/avatar.png"
 imageTitle = "wvverez"
