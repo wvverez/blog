@@ -17,4 +17,6 @@ En mi tiempo libre me gusta investigar de forma autódidacta. Dicho esto vamos c
 
 Las inyecciones `SQL` ocurren cuando un atacante es capaz de mandar querys (consultas) maliciosas desde algún campo de la página web. Es decir si hay ciertas entradas que no sanitizan correctamente la información de el usuario. Esa consulta **sql** se ejecuta en la base de datos, lo que permite consultar tablas, columnas bases de datos y información confidencial. Hay diferentes tipos de inyecciones `SQL`.
 
-- Inyecciones SQL basadas en errores: 
+- Inyecciones SQL basadas en errores: Este tipo abusa de los errores de el código SQL para sacar información. Por ejemplo, si una consulta SQL produce un mensaje de error específico, ese mensaje puede ser utilizado por el atacante para obtener detalles adicionales sobre el sistema. Es decir si haces una comparativa y da el error puedes usarlo para sacar cierta información.
+
+- 
