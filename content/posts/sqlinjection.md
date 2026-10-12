@@ -5,7 +5,6 @@ author: "wvverez"
 tags: ["SQL Injection", "SQL", "Web Security", "OWASP"]
 categories: ["Cybersecurity", "Web Security"]
 cover:
-    image: "https://raw.githubusercontent.com/wvverez/blog/main/themes/PaperMod/images/sql.png"
     alt: "SQL Injection"
     caption: "Introducción a SQL Injection"
     relative: false
@@ -19,4 +18,8 @@ Las inyecciones `SQL` ocurren cuando un atacante es capaz de mandar querys (cons
 
 - Inyecciones SQL basadas en errores: Este tipo abusa de los errores de el código SQL para sacar información. Por ejemplo, si una consulta SQL produce un mensaje de error específico, ese mensaje puede ser utilizado por el atacante para obtener detalles adicionales sobre el sistema. Es decir si haces una comparativa y da el error puedes usarlo para sacar cierta información.
 
-- 
+- Inyecciones SQL basadas en `tiempo`: en este caso lo que hace el atacante es mandar una query que crea un retraso a la hora de sacar información, y va sacando datos en función de el tiempo de respuesta de la `db`.
+
+- Inyecciones SQL basadas en uniones: Aquí se usa `UNION` para combinar 2 querys SQL dentro de una misma.
+
+Estos son las más comunes pero existen muchos más tipos como `second order` y muchos más. Pero estás son las más comunes que encuentres en las aplicaciones web actuales 
