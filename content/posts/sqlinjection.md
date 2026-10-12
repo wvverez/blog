@@ -22,4 +22,38 @@ Las inyecciones `SQL` ocurren cuando un atacante es capaz de mandar querys (cons
 
 - Inyecciones SQL basadas en uniones: Aquí se usa `UNION` para combinar 2 querys SQL dentro de una misma.
 
-Estos son las más comunes pero existen muchos más tipos como `second order` y muchos más. Pero estás son las más comunes que encuentres en las aplicaciones web actuales 
+Estos son las más comunes pero existen muchos más tipos como `second order` y muchos más. Pero estás son las más comunes que encuentres en las aplicaciones web actuales.
+
+# Inyecciones SQL basadas en Uniones
+
+Para empezar dentro de todos los tipos vamos a empezar por las inyecciones sql basadas en Uniones así que para empezar vamos a empezar con este archivo simple.
+
+```sh
+<?php
+// pa Habilitar los mensajes de error
+ini_set('display_errors', '1');
+ini_set('error_reporting', E_ALL); 
+
+$server = "127.0.0.1";
+$username = getenv('MYSQL_USER');
+$password = getenv('MYSQL_PASSWORD');
+$database = getenv('MYSQL_DATABASE');
+
+$conn = new mysqli($server, $username, $password, $database);
+
+if ($conn->connect_error) die('Error al conectarse a la base de datos: ' . $conn->connect_error);
+
+$id = $_GET['id'] ?? '';
+$query = "SELECT name FROM users WHERE id=$id";
+$res = mysqli_query($conn, $query);
+
+if (mysqli_num_rows($res)) {
+	$row = mysqli_fetch_assoc($res);
+	echo "Name: " . $row['name'];
+} else {
+	echo "The user with ID $id does not exist.";
+}
+
+mysqli_close($conn);
+```
+
