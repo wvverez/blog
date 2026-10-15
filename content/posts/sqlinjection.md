@@ -1,5 +1,5 @@
 ---
-title: "Revertiendo +100 stages de AES / Assembly x86-64"
+title: "Revertiendo binario con +1000 stages de AES / Assembly x86-64"
 date: 2026-10-15
 author: "wvverez"
 tags: ["Reversing", "AES", "Assembly", "OWASP"]
