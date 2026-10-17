@@ -61,3 +61,16 @@ Bajando sobre la última parte de el menú vemos una parte un tanto interesante 
 
 <img width="1048" height="622" alt="image" src="https://github.com/user-attachments/assets/eae2ca8c-3458-4b7f-b817-9f28363ec6ec" />
 
+Y vemos también que podemos exportar las notas. Pero para esto nos indica abajo que
+tenemos que estar logueados con una cuenta gratuita . Vamos a revisar los otros puertos
+antes de probar nada. Vamos a revisar el 3000 donde corre Gitea.
+
+Vemos que el usuario wvverez tiene un repositorio subido que aparentemente parece ser todo
+el código de la web que tenemos por el 5000.
+
+
+# Directory Path Traversal 
+
+```sh
+
+```
